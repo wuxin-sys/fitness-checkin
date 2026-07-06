@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: fitness-checkin
+    runtime: java
+    rootDir: fitness-server
+    buildCommand: mvn clean package -DskipTests
+    startCommand: java -jar target/fitness-server-1.0.0.jar --spring.profiles.active=demo
+    plan: free
+    autoDeploy: true
