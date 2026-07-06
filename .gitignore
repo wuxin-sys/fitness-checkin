@@ -21,3 +21,5 @@ Thumbs.db
 
 # Env
 .env
+
+fitness-server/src/main/resources/static/
